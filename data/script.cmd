@@ -1,0 +1,1 @@
+mongoimport -d mydb -c ActorList --type csv --file actor_list_full.csv --headerline
