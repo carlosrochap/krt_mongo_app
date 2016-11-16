@@ -21,12 +21,8 @@ import static com.mongodb.client.model.Filters.regex;
  */
 @WebServlet(name = "ActorSearch")
 public class ActorSearch extends HttpServlet {
+
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
-            throws ServletException, IOException {
-
-    }
-
-    protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 
         String searchText = request.getParameter("search-text");

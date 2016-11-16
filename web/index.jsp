@@ -26,6 +26,25 @@
     <script src="https://unpkg.com/react-dom@15/dist/react-dom.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react-bootstrap/0.30.6/react-bootstrap.min.js"></script>
+
+    <script type="text/babel">
+      var ButtonGroup = ReactBootstrap.ButtonGroup;
+      var DropdownButton = ReactBootstrap.DropdownButton;
+      var MenuItem = ReactBootstrap.MenuItem;
+      var Button = ReactBootstrap.Button;
+      var buttonGroupInstance = (
+              <ButtonGroup>
+                <DropdownButton bsStyle="success" title="Dropdown">
+                  <MenuItem key="1">Dropdown link</MenuItem>
+                  <MenuItem key="2">Dropdown link</MenuItem>
+                </DropdownButton>
+                <Button bsStyle="info">Middle</Button>
+                <Button bsStyle="info">Right</Button>
+              </ButtonGroup>
+      );
+    </script>
+
     <script type="text/babel" src="js/app.js"></script>
 
   </head>
