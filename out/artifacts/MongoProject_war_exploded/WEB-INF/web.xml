@@ -9,8 +9,26 @@
         <servlet-class>test.HelloServlet</servlet-class>
     </servlet>
 
+    <servlet>
+        <servlet-name>actorSearch</servlet-name>
+        <servlet-class>api.ActorSearch</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>comments</servlet-name>
+        <servlet-class>api.Comments</servlet-class>
+    </servlet>
+
     <servlet-mapping>
         <servlet-name>hello</servlet-name>
         <url-pattern>/hello</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>actorSearch</servlet-name>
+        <url-pattern>/actor-search</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>comments</servlet-name>
+        <url-pattern>/comments</url-pattern>
     </servlet-mapping>
 </web-app>

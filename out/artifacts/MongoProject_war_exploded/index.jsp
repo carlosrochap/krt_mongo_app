@@ -26,12 +26,10 @@
     <script src="https://unpkg.com/react-dom@15/dist/react-dom.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
 
-    <%--<script type="text/babel" src="js/test.js"></script>--%>
     <script type="text/babel" src="js/app.js"></script>
 
   </head>
   <body>
-  $END$
   <div id="root"></div>
   </body>
 </html>

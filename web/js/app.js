@@ -66,7 +66,7 @@ var SearchBox = React.createClass({
     createAjax: function(){
         var query    = ReactDOM.findDOMNode(this.refs.query).value;
         // var category = ReactDOM.findDOMNode(this.refs.category).value;
-        var URL      = '/MongoProject_war_exploded/hello';// + query +'&country=us&entity=' + category;
+        var URL      = '/MongoProject_war_exploded/actor-search';
         this.props.search(URL, query)
     }
 
